@@ -12,9 +12,6 @@ store.subscribe(() => {
   console.log('New State', store.getState())
 });
 
-store.dispatch(actions.addTodo('Get on the bus'));
-store.dispatch(actions.setSearchText('bus'));
-store.dispatch(actions.toggleShowCompleted())
 
 // Load foundation
 
